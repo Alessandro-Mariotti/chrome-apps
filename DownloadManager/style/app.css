@@ -1,0 +1,8 @@
+body {
+	padding-left: 5%;
+}
+#download-resources-list {
+	width: 90%;	
+	display: inline-block;
+	font-family: 'inconsolata';
+}

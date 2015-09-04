@@ -1,0 +1,31 @@
+{
+	"resources": [{
+		"address": "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/HT1425/sample_iPod.m4v.zip",
+		"action": "download",
+		"name": "first.zip"
+	}, {
+		"address": "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/HT1425/sample_iTunes.mov.zip",
+		"action": "download",
+		"name": "second.zip"
+	}, {
+		"address": "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/HT1425/sample_mpeg4.mp4.zip",
+		"action": "download",
+		"name": "third.zip"
+	}, {
+		"address": "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/HT1425/sample_3GPP.3gp.zip",
+		"action": "download",
+		"name": "fourth.zip"
+	}, {
+		"address": "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/HT1425/sample_mpeg2.m2v.zip",
+		"action": "download",
+		"name": "fifth.zip"
+	}]
+}
+--singlefile {
+	"resources": [{
+		"address": "https://s3-eu-west-1.amazonaws.com/themadbox.fluid.sport/timeslots/55d4b6313746ed81788b456b.mp4",
+		"action": "download",
+		"name": "first.mp4"
+	}]
+}
+}

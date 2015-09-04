@@ -1,0 +1,20 @@
+{
+  "name": "DownloadManager",
+  "description": "Download Manager",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "icons": {
+    "16": "download-16.png",
+    "128": "download-128.png"
+  },
+  "permissions": [{
+      "fileSystem": ["write"]
+    }, "<all_urls>",
+    "unlimitedStorage"
+  ]
+}

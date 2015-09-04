@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Comms</title>
+  <link rel="stylesheet" href="assets/mdl/material.min.css">
+  <script src="assets/mdl/material.min.js"></script>
+  <link rel="stylesheet" href="assets/mdl/fonts.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  
+  <div class="mdl-grid">
+    
+    <div class="mdl-cell mdl-cell-3-col">
+      <h3>Server</h3>
+      <div>
+        <button id="btn-server-start" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Start server</button>
+        <button id="btn-server-stop" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Stop server</button>
+      </div>
+      <div class="mdl-cell mdl-cell--6-col" id="div-server-status">
+        Server status:&nbsp;<span id="span-server-status"></span>
+      </div>
+    </div>
+    
+    <div class="mdl-cell mdl-cell-3-col">
+      <h3>Client</h3>
+      <div>
+        <form action="#" id="ip-address">
+          <div class="mdl-textfield mdl-js-textfield">
+            <input class="mdl-textfield__input" type="text" id="address" />
+            <label class="mdl-textfield__label" for="sample1">address (port = 50000)</label>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </div>
+  
+  
+  <div id="div-client"></div>
+
+  <script src="js/lib/jquery-2.1.4.min.js"></script>
+  <script src="js/app/utilities.js"></script>
+  <script src="js/app/client.js"></script>
+  <script src="js/app/server.js"></script>
+  
+  <script src="main.js"></script>
+</body>
+</html>
